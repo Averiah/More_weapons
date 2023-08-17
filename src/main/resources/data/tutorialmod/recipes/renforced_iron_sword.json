@@ -6,7 +6,7 @@
 "item": "minecraft:stick"
 },
 "X": {
-"item": "tutorialmod:renforcediron"
+"item": "tutorialmod:reinforcediron"
 }
 },
 "pattern": [
@@ -15,7 +15,7 @@
 "#"
 ],
 "result": {
-"item": "tutorialmod:renforcedironsword"
+"item": "tutorialmod:reinforcedironsword"
 },
 "show_notification": true
 }

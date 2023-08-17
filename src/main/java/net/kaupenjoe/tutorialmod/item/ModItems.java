@@ -12,13 +12,13 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
 
-    public static final RegistryObject<Item> RENFORCEDIRON = ITEMS.register("renforcediron",
+    public static final RegistryObject<Item> REINFORCEDIRON = ITEMS.register("reinforcediron",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
             () -> new Item(new Item.Properties()));
 
-    public static final RegistryObject<Item> RENFORCEDIRONSWORD = ITEMS.register("renforcedironsword",
-            () -> new SwordItem(ModItemTier.RENFORCEDIRON,1, -2.4f, new Item.Properties()));
+    public static final RegistryObject<Item> REINFORCEDIRONSWORD = ITEMS.register("reinforcedironsword",
+            () -> new SwordItem(ModItemTier.REINFORCEDIRON,1, -2.4f, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

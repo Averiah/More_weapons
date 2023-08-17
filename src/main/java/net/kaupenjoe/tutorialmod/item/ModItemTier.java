@@ -9,8 +9,8 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements Tier {
 
-    RENFORCEDIRON(8, 800, 4.0F, 4.0F, 25, () -> {
-        return Ingredient.of(ModItems.RENFORCEDIRON.get());
+    REINFORCEDIRON(8, 800, 4.0F, 4.0F, 25, () -> {
+        return Ingredient.of(ModItems.REINFORCEDIRON.get());
     });
 
     private final int harvestLevel;

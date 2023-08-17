@@ -42,11 +42,11 @@ public class TutorialMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.RENFORCEDIRON);
+            event.accept(ModItems.REINFORCEDIRON);
             event.accept(ModItems.RAW_SAPPHIRE);
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-            event.accept(ModItems.RENFORCEDIRONSWORD);
+            event.accept(ModItems.REINFORCEDIRONSWORD);
         }
     }
 

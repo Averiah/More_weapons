@@ -15,12 +15,12 @@ public class ModCreativeModTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, TutorialMod.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> TUTORIAL_TAB = CREATIVE_MODE_TABS.register("tutorial_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.RENFORCEDIRON.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.REINFORCEDIRON.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
-                        pOutput.accept(ModItems.RENFORCEDIRON.get());
+                        pOutput.accept(ModItems.REINFORCEDIRON.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
-                        pOutput.accept(ModItems.RENFORCEDIRONSWORD.get());
+                        pOutput.accept(ModItems.REINFORCEDIRONSWORD.get());
                     })
                     .build());
 
