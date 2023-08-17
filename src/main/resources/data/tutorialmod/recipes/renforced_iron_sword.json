@@ -1,0 +1,21 @@
+{
+"type": "minecraft:crafting_shaped",
+"category": "equipment",
+"key": {
+"#": {
+"item": "minecraft:stick"
+},
+"X": {
+"item": "tutorialmod:renforcediron"
+}
+},
+"pattern": [
+"X",
+"X",
+"#"
+],
+"result": {
+"item": "tutorialmod:renforcedironsword"
+},
+"show_notification": true
+}
