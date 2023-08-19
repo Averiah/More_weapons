@@ -21,6 +21,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.REINFORCEDIRON.get());
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.REINFORCEDIRONSWORD.get());
+                        pOutput.accept(ModItems.IRONDAGGER.get());
                     })
                     .build());
 

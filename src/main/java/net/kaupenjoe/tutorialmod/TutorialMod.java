@@ -47,6 +47,7 @@ public class TutorialMod {
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.REINFORCEDIRONSWORD);
+            event.accept(ModItems.IRONDAGGER);
         }
     }
 

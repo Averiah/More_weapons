@@ -6,16 +6,16 @@
       "item": "minecraft:stick"
     },
     "X": {
-      "item": "tutorialmod:reinforcediron"
+      "item": "minecraft:iron_ingot"
     }
   },
   "pattern": [
-    "X",
+    "",
     "X",
     "#"
   ],
   "result": {
-    "item": "tutorialmod:reinforcedironsword"
+    "item": "tutorialmod:irondagger"
   },
   "show_notification": true
 }
