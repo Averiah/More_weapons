@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "",
     "X",
-    "#"
+    "#",
+    ""
   ],
   "result": {
-    "item": "tutorialmod:irondagger"
+    "item": "morewerapons:irondagger"
   },
   "show_notification": true
 }

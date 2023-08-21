@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "moreweapons:item/irondagger.png"
+    "layer0": "moreweapons:item/irondagger"
   }
 }
