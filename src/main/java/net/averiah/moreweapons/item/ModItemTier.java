@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.averiah.moreweapons.item;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.averiah.moreweapons.moreweapons;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;

@@ -1,9 +1,8 @@
-package net.kaupenjoe.tutorialmod;
+package net.averiah.moreweapons;
 
 import com.mojang.logging.LogUtils;
-import net.kaupenjoe.tutorialmod.item.ModCreativeModTabs;
-import net.kaupenjoe.tutorialmod.item.ModItemTier;
-import net.kaupenjoe.tutorialmod.item.ModItems;
+import net.averiah.moreweapons.item.ModCreativeModTabs;
+import net.averiah.moreweapons.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -18,12 +17,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(TutorialMod.MOD_ID)
-public class TutorialMod {
-    public static final String MOD_ID = "tutorialmod";
+@Mod(moreweapons.MOD_ID)
+public class moreweapons {
+    public static final String MOD_ID = "moreweapons";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public TutorialMod() {
+    public moreweapons() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);

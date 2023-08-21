@@ -1,6 +1,6 @@
-package net.kaupenjoe.tutorialmod.item;
+package net.averiah.moreweapons.item;
 
-import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.averiah.moreweapons.moreweapons;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
@@ -15,7 +15,7 @@ import java.net.Inet4Address;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, TutorialMod.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.ITEMS, moreweapons.MOD_ID);
 
     public static final RegistryObject<Item> REINFORCEDIRON = ITEMS.register("reinforcediron",
             () -> new Item(new Item.Properties()));
@@ -25,7 +25,7 @@ public class ModItems {
     public static final RegistryObject<Item> REINFORCEDIRONSWORD = ITEMS.register("reinforcedironsword",
             () -> new SwordItem(ModItemTier.REINFORCEDIRON,1, -2.4f, new Item.Properties()));
 
-    public static final RegistryObject<SwordItem> IRONDAGGER = ITEMS.register("irondagger",
+    public static final RegistryObject<Item> IRONDAGGER = ITEMS.register("irondagger",
             () -> new SwordItem(Tiers.IRON,1, -1.9f,  new Item.Properties()));
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
