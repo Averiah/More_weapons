@@ -10,12 +10,12 @@
     }
   },
   "pattern": [
-    "X",
-    "#",
-    ""
+    "   ",
+    " X ",
+    " # "
   ],
   "result": {
-    "item": "morewerapons:irondagger"
+    "item": "moreweapons:irondagger"
   },
   "show_notification": true
 }
