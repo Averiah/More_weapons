@@ -27,6 +27,19 @@ public class ModItems {
 
     public static final RegistryObject<Item> IRONDAGGER = ITEMS.register("irondagger",
             () -> new SwordItem(Tiers.IRON,1, -1.9f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> WOODENDAGGER = ITEMS.register("woodendagger",
+            () -> new SwordItem(Tiers.WOOD,1, -1.9f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> STONEDAGGER = ITEMS.register("stonedagger",
+            () -> new SwordItem(Tiers.STONE,1, -1.9f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLDENDAGGER = ITEMS.register("goldendagger",
+            () -> new SwordItem(Tiers.GOLD,1, -1.9f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMONDDAGGER = ITEMS.register("diamonddagger",
+            () -> new SwordItem(Tiers.DIAMOND,1, -1.9f,  new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

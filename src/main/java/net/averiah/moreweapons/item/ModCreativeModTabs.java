@@ -21,6 +21,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.REINFORCEDIRONSWORD.get());
                         pOutput.accept(ModItems.IRONDAGGER.get());
+                        pOutput.accept(ModItems.WOODENDAGGER.get());
+                        pOutput.accept(ModItems.STONEDAGGER.get());
+                        pOutput.accept(ModItems.GOLDENDAGGER.get());
+                        pOutput.accept(ModItems.DIAMONDDAGGER.get());
+
                     })
                     .build());
 

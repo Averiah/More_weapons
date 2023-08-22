@@ -47,6 +47,10 @@ public class moreweapons {
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.REINFORCEDIRONSWORD);
             event.accept(ModItems.IRONDAGGER);
+            event.accept(ModItems.WOODENDAGGER);
+            event.accept(ModItems.STONEDAGGER);
+            event.accept(ModItems.GOLDENDAGGER);
+            event.accept(ModItems.DIAMONDDAGGER);
         }
     }
 

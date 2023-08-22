@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "   ",
+    " X ",
+    " # "
+  ],
+  "result": {
+    "item": "moreweapons:stonedagger"
+  },
+  "show_notification": true
+}
