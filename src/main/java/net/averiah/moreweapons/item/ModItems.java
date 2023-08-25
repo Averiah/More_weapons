@@ -1,6 +1,7 @@
 package net.averiah.moreweapons.item;
 
 import net.averiah.moreweapons.moreweapons;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
@@ -39,19 +40,19 @@ public class ModItems {
             () -> new SwordItem(Tiers.DIAMOND,1, -1.9f,  new Item.Properties()));
 
     public static final RegistryObject<Item> IRONLONGSWORD = ITEMS.register("ironlongsword",
-            () -> new SwordItem(Tiers.IRON,2, -3f,  new Item.Properties()));
+            () -> new SwordItem(Tiers.IRON,6, -3.2f,  new Item.Properties()));
 
     public static final RegistryObject<Item> WOODENLONGSWORD = ITEMS.register("woodenlongsword",
-            () -> new SwordItem(Tiers.WOOD,2, -3f,  new Item.Properties()));
+            () -> new SwordItem(Tiers.WOOD,6, -3.2f,  new Item.Properties()));
 
     public static final RegistryObject<Item> STONELONGSWORD = ITEMS.register("stonelongsword",
-            () -> new SwordItem(Tiers.STONE,2, -3f,  new Item.Properties()));
+            () -> new SwordItem(Tiers.STONE,6, -3.2f,  new Item.Properties()));
 
     public static final RegistryObject<Item> GOLDENLONGSWORD = ITEMS.register("goldenlongsword",
-            () -> new SwordItem(Tiers.GOLD,2, -3f,  new Item.Properties()));
+            () -> new SwordItem(Tiers.GOLD,6, -3.2f,  new Item.Properties()));
 
     public static final RegistryObject<Item> DIAMONDLONGSWORD = ITEMS.register("diamondlongsword",
-            () -> new SwordItem(Tiers.DIAMOND,2, -3f,  new Item.Properties()));
+            () -> new SwordItem(Tiers.DIAMOND,6, -3.2f,  new Item.Properties()));
 
     public static final RegistryObject<Item> STONESTICK = ITEMS.register("stonestick",
             () -> new Item(new Item.Properties()));
