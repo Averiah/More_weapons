@@ -42,7 +42,8 @@ public class moreweapons {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.REINFORCEDIRON);
-            event.accept(ModItems.RAW_SAPPHIRE);
+            event.accept(ModItems.STONESTICK);
+
         }
         if(event.getTabKey() == CreativeModeTabs.COMBAT) {
             event.accept(ModItems.REINFORCEDIRONSWORD);

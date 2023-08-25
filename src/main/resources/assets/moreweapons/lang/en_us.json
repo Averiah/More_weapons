@@ -1,12 +1,19 @@
 {
   "item.moreweapons.reinforcediron": "Reinforced iron",
-  "item.moreweapons.raw_sapphire": "Raw Sapphire",
   "item.moreweapons.reinforcedironsword": "Reinforced iron sword",
   "item.moreweapons.irondagger": "Iron dagger",
   "item.moreweapons.woodendagger": "Wooden dagger",
   "item.moreweapons.stonedagger": "Stone dagger",
   "item.moreweapons.goldendagger": "Golden dagger",
   "item.moreweapons.diamonddagger": "Diamond dagger",
+  "item.moreweapons.stonestick": "Stone stick",
+  "item.moreweapons.woodenlongsword": "Wooden long sword",
+  "item.moreweapons.stonelongsword": "Stone long sword",
+  "item.moreweapons.ironlongsword": "Iron long sword",
+  "item.moreweapons.goldenlongsword": "Golden long sword",
+  "item.moreweapons.diamondlongsword": "Diamond long sword",
+
+
 
 
   "creativetab.moreweapons": "More weapons"

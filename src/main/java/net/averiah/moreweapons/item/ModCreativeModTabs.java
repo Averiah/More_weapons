@@ -18,13 +18,18 @@ public class ModCreativeModTabs {
                     .title(Component.translatable("creativetab.moreweaponstab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.REINFORCEDIRON.get());
-                        pOutput.accept(ModItems.RAW_SAPPHIRE.get());
                         pOutput.accept(ModItems.REINFORCEDIRONSWORD.get());
                         pOutput.accept(ModItems.IRONDAGGER.get());
                         pOutput.accept(ModItems.WOODENDAGGER.get());
                         pOutput.accept(ModItems.STONEDAGGER.get());
                         pOutput.accept(ModItems.GOLDENDAGGER.get());
                         pOutput.accept(ModItems.DIAMONDDAGGER.get());
+                        pOutput.accept(ModItems.WOODENLONGSWORD.get());
+                        pOutput.accept(ModItems.STONELONGSWORD.get());
+                        pOutput.accept(ModItems.IRONLONGSWORD.get());
+                        pOutput.accept(ModItems.GOLDENLONGSWORD.get());
+                        pOutput.accept(ModItems.DIAMONDLONGSWORD.get());
+                        pOutput.accept(ModItems.STONESTICK.get());
 
                     })
                     .build());

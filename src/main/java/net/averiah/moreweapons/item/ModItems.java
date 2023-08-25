@@ -19,8 +19,6 @@ public class ModItems {
 
     public static final RegistryObject<Item> REINFORCEDIRON = ITEMS.register("reinforcediron",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
-            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> REINFORCEDIRONSWORD = ITEMS.register("reinforcedironsword",
             () -> new SwordItem(ModItemTier.REINFORCEDIRON,1, -2.4f, new Item.Properties()));
@@ -39,6 +37,25 @@ public class ModItems {
 
     public static final RegistryObject<Item> DIAMONDDAGGER = ITEMS.register("diamonddagger",
             () -> new SwordItem(Tiers.DIAMOND,1, -1.9f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> IRONLONGSWORD = ITEMS.register("ironlongsword",
+            () -> new SwordItem(Tiers.IRON,2, -3f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> WOODENLONGSWORD = ITEMS.register("woodenlongsword",
+            () -> new SwordItem(Tiers.WOOD,2, -3f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> STONELONGSWORD = ITEMS.register("stonelongsword",
+            () -> new SwordItem(Tiers.STONE,2, -3f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> GOLDENLONGSWORD = ITEMS.register("goldenlongsword",
+            () -> new SwordItem(Tiers.GOLD,2, -3f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMONDLONGSWORD = ITEMS.register("diamondlongsword",
+            () -> new SwordItem(Tiers.DIAMOND,2, -3f,  new Item.Properties()));
+
+    public static final RegistryObject<Item> STONESTICK = ITEMS.register("stonestick",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
