@@ -19,16 +19,23 @@ public class ModCreativeModTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.REINFORCEDIRON.get());
                         pOutput.accept(ModItems.REINFORCEDIRONSWORD.get());
-                        pOutput.accept(ModItems.IRONDAGGER.get());
+                        pOutput.accept(ModItems.REINFORCEDIRONAXE.get());
+                        pOutput.accept(ModItems.REINFORCEDIRONPICKAXE.get());
+                        pOutput.accept(ModItems.REINFORCEDIRONSHOVEL.get());
+                        pOutput.accept(ModItems.REINFORCEDIRONDAGGER.get());
+                        pOutput.accept(ModItems.REINFORCEDIRONLONGSWORD.get());
                         pOutput.accept(ModItems.WOODENDAGGER.get());
                         pOutput.accept(ModItems.STONEDAGGER.get());
+                        pOutput.accept(ModItems.IRONDAGGER.get());
                         pOutput.accept(ModItems.GOLDENDAGGER.get());
                         pOutput.accept(ModItems.DIAMONDDAGGER.get());
+                        pOutput.accept(ModItems.NETHERITEDAGGER.get());
                         pOutput.accept(ModItems.WOODENLONGSWORD.get());
                         pOutput.accept(ModItems.STONELONGSWORD.get());
                         pOutput.accept(ModItems.IRONLONGSWORD.get());
                         pOutput.accept(ModItems.GOLDENLONGSWORD.get());
                         pOutput.accept(ModItems.DIAMONDLONGSWORD.get());
+                        pOutput.accept(ModItems.NETHERITELONGSWORD.get());
                         pOutput.accept(ModItems.STONESTICK.get());
 
                     })

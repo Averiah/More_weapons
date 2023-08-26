@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "moreweapons:reinforcediron"
+    }
+  },
+  "pattern": [
+    " X ",
+    "XXX",
+    " # "
+  ],
+  "result": {
+    "item": "moreweapons:reinforcedironlongsword"
+  },
+  "show_notification": true
+}

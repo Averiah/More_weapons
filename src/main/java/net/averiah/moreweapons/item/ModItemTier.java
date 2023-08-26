@@ -9,7 +9,7 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements Tier {
 
-    REINFORCEDIRON(2, 1000, 4.0F, 4.0F, 25, () -> {
+    REINFORCEDIRON(2, 1000, 6.0F, 4.0F, 25, () -> {
         return Ingredient.of(ModItems.REINFORCEDIRON.get());
     });
 
